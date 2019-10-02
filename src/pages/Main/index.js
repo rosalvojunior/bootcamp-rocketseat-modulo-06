@@ -21,6 +21,7 @@ export default class Main extends Component {
     this.setState({ users: [...users, data], newUser: '' });
     Keyboard.dismiss();
   };
+
   render() {
     const { users, newUser } = this.state;
 
